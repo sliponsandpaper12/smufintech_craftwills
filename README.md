@@ -5,9 +5,14 @@ By participating, you won't merely be mastering fintech intricacies. You'll be a
 
 # Program Flow
 Session 1) Figma
+
 Session 2) Express.js
+
 Session 3) React.js
+
 Session 4) MERN
+
 Session 5) ChatGPT
+
 Session 6) Docker, Heroku & Vercel
 
