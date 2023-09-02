@@ -27,16 +27,16 @@ In the modern financial landscape, individuals often have assets spread across v
 
 
 ## Feature Scope
-### 1) Asset Input Interface
+### Asset Input Interface
 A user-friendly interface where users can manually input details of their assets, whether they are financial (stocks, bonds, cash holdings) or tangible (real estate, collectibles).
 
-### 2) Asset Categories
+### Asset Categories
 Different categories (e.g., Real Estate, Stocks, Bonds, Collectibles) where users can organize their assets for better clarity.
 
-### 3) Dashboard View
+### Dashboard View
 A comprehensive dashboard where users can view the total value of their assets, categorized breakdowns, and individual asset details.
 
-### 4) Alerts and Notifications
+### Alerts and Notifications
 System-generated alerts if there are possible significant changes in the value of an asset due to newly released regulations or business circumstances.
 
 
@@ -82,42 +82,42 @@ With the intricacies of the financial sector, many individuals might miss out on
 
 
 ## Feature Scope
-### 1) ChatGPT Integration
+### ChatGPT Integration
 Seamless integration of ChatGPT into the platform, ensuring real-time, responsive, and contextual advice based on user queries.
 
-### 2) Interactive Analysis Interface
+### Interactive Analysis Interface
 A chat-like interface where users can ask questions, receive insights, and get clarifications on their asset portfolio.
 
-### 3) Contextual Analysis
+### Contextual Analysis
 Send user-specific data to ChatGPT for tailored advice, ensuring that insights are personalized and relevant.
 
-### 4) Scenario Simulation
+### Scenario Simulation
 Through ChatGPT, users can simulate financial scenarios, such as buying an additional property, and receive real-time feedback on implications.
 
-### 5) Historical and Predictive Analysis
+### Historical and Predictive Analysis
 Utilizing ChatGPT's capabilities to provide users with insights based on historical data and potential future scenarios.
 
 
 ## Process Flow
-### Accessing the Analysis Platform
+1. Accessing the Analysis Platform
 After logging in, users can navigate to the Asset Analysis section.
 
-### Initiating ChatGPT Session
+2. Initiating ChatGPT Session
 Users click on "Analysis" to start an interactive session with ChatGPT.
 
-### Contextual Information Submission
+3. Contextual Information Submission
 The platform sends a contextual overview of the user's assets to ChatGPT to tailor the interaction.
 
-### Interactive Querying
+4. Interactive Querying
 Users can ask specific questions like, "What happens if I buy another house in Singapore?" and receive immediate, tailored feedback.
 
-### Deep Dive into Assets
+5. Deep Dive into Assets
 Users can specify which asset they want more detailed insights on, and ChatGPT will provide a thorough analysis based on the data it received.
 
-### Legal Alerts & Updates
+6. Legal Alerts & Updates
 When discussing specific assets, ChatGPT can proactively notify users of relevant regulatory changes or updates, ensuring they're always up-to-date.
 
-### End Session & Summary
+7. End Session & Summary
 After the interactive session, users receive a summary of the insights and recommendations provided by ChatGPT.
 
 
@@ -130,40 +130,40 @@ To provide a seamless, user-friendly platform that guides users through the intr
 The traditional method of crafting Wills and Trusts can be cumbersome, daunting, and riddled with potential oversight. Recognizing these pain points, the Estate Distribution Function is envisioned as a comprehensive solution. It uses the information already input by the user, automating the distribution process to ensure clarity and alignment with the user's wishes.
 
 ## Feature Scope
-### 1) Intuitive Interface
+### Intuitive Interface
 A straightforward, step-by-step platform guiding users through executor, guardian, asset distribution, trust creation, and residual estate decisions.
 
-### 2) Dynamic Asset Allocation
+### Dynamic Asset Allocation
 Drawing from the Asset Tracking Function, users can specify distribution details, including percentages, equal divisions, and beneficiary specifications.
 
-### 3) Executor & Guardian Assignments
+### Executor & Guardian Assignments
 Allows users to detail primary and replacement executors and guardians, capturing essential details such as Name, NRIC, and Address.
 
-### 4) Trust Formation
+### Trust Formation
 Facilitates the creation of Trusts, detailing its purpose, duration, trustee powers, beneficiary details, and specific distribution strategies.
 
-### 5) Residual Estate Management
+### Residual Estate Management
 Offers clarity on assets not explicitly mentioned, guiding users on setting up residual estate instructions.
 
-### 6) Final Words & Advisor Clause
+### Final Words & Advisor Clause
 Provides a section for users to articulate their final wishes and recommendations on financial advisors for any posthumous inquiries.
 
 
 ## Process Flow
 ### User Process Flow:
 
-### Initiation & Central Data Collection:
+1. Initiation & Central Data Collection:
 - Login/Registration: Users enter their credentials or register for a new account.
 - Dashboard Access: Once authenticated, users access their personalized dashboard.
 - Centralized Personal Data Entry: Under the 'Profile' or 'My Information' tab, users input primary personal details: Full Name, NRIC, Address, and Relationship Status. This data acts as a foundation for other processes.
 
-### Executor & Guardian Setup:
+2. Executor & Guardian Setup:
 - Executor/Guardian Tab Access: A dedicated tab or section is available on the dashboard.
 - Selection & Role Assignment: Users choose contacts from their centralized database and specify if they'll serve as primary executors or guardians. Roles can be defined as sole, jointly, or jointly and severally.
 - Replacement Executor/Guardian Assignment: For each primary executor or guardian, a prompt appears to assign replacements. The system recommends this as a contingency, ensuring that even in the absence of a primary executor or guardian, the user's wishes can still be executed.
 - Verification: A summary page displays chosen executors, guardians, and their replacements for review.
 
-### Asset Distribution Allocation:
+3. Asset Distribution Allocation:
 - Asset View: Users access a segmented, categorized display of assets.
 - Distribution Specifications: For each asset, a detailed form appears. It captures distribution methods, number of beneficiaries, and any contingencies. There are options like splitting equally or by percentage.
 - Contingency Options: Users get prompts for contingency scenarios. For instance, if a primary beneficiary predeceases the user, should the asset:
@@ -172,30 +172,30 @@ Provides a section for users to articulate their final wishes and recommendation
   - Transfer to a specific replacement beneficiary?
   - Contribute to the residual estate?
   
-### Beneficiary Management:
+4. Beneficiary Management:
 - Beneficiary Tab Access: This is segmented into primary and replacement beneficiaries.
 - Adding Beneficiaries: Using the 'Add Beneficiary' function, users can select from the centralized contact list or add a new contact.
 - Setting Replacements: Similar to the executors and guardians, users are prompted to set replacements for primary beneficiaries.
 - Review & Validation: A snapshot view of beneficiaries and their replacements is shown, ensuring that all are covered.
 
-### Trust Formation Flow:
+5. Trust Formation Flow:
 - Trust Creation Wizard: The system offers a linear step-by-step guide to form trusts.
 - Trustee Appointment: Using the centralized database, users appoint trustees. They can also appoint replacements and define powers, limitations, and clauses.
 - Asset Allocation to Trust: Here, users can drag and drop assets into trust categories.
 - Payout Conditions & Beneficiary Allocation: Detailed conditions, frequencies, amounts, and special clauses are set. Beneficiaries can be selected, and their unique conditions can be tailored.
 
-### Residual Estate Instruction:
+6. Residual Estate Instruction:
 - System Alerts: Automated reminders notify users of unallocated assets.
 - Residual Estate Distribution Setup: Users define the distribution logic for the remaining assets.
 - Review & Summary: A consolidated view allows users to verify that all assets, even the unassigned ones, have directions for allocation.
 
-### Final Thoughts & Advisor Clause Input:
+7. Final Thoughts & Advisor Clause Input:
 - Note Space: A dedicated editor allows users to pen down their final words.
 - Advisor Assignment: From the central database, users can either choose a pre-existing advisor or add a new one, ensuring their beneficiaries have the right guidance when the time comes.
 
-### Review, Finalization & Document Security:
+8. Review, Finalization & Document Security:
 - Full Overview: Users access a collapsible, detailed display of all decisions.
 - Edit & Adjust: With quick-edit options, users can rectify or modify any section.
 - Final Confirmation: After a thorough review, users lock in their decisions, securing the document with a password or biometric authentication.
 
-### All details will be sent to the API server to generate a full PDF Will & Trust Document.
+9. All details will be sent to the API server to generate a full PDF Will & Trust Document.
