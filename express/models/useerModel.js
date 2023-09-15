@@ -19,4 +19,4 @@ const userSchema = new mongoose.Schema({ // this is how mongo works, create a sc
 
 const User = mongoose.model('User', userSchema)
 
-module.exports = User;
+module.exports = User; // this is like export default

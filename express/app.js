@@ -1,10 +1,9 @@
-import "./index.js"
-
 const express = require('express');
 const cookieParser = require('cookie-parser');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 
+const indexRouter = require('./index'); // cannot use import because in index we dont have export so cannot
 // Load environment variables from a .env file
 dotenv.config();
 
