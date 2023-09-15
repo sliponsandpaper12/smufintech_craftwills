@@ -29,8 +29,8 @@ db.once('open', () => {
 });
 
 // Routes
-const userRoutes = require('./routes/userRoutes');
-app.use('/api/users', userRoutes);
+const userRoute = require('./routes/userRoute');
+app.use('/api/users', userRoute);
 
 // Error handling middleware
 app.use((err, req, res, next) => {

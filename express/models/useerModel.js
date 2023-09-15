@@ -1,4 +1,4 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose') // model is similar to objects
 
 const userSchema = new mongoose.Schema({ // this is how mongo works, create a schema this way
     phone: {// can actually just write phone: String but then this one got other specification
@@ -19,4 +19,4 @@ const userSchema = new mongoose.Schema({ // this is how mongo works, create a sc
 
 const User = mongoose.model('User', userSchema)
 
-module.exports = User; // this is like export default
+module.exports = User; // this is like export default // its saying "export this file as User" .. then refer to userRoute where we require this file' info
