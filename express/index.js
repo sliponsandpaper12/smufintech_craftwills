@@ -11,3 +11,4 @@ const server = http.createServer(app);
 server.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+// this will launch the server and then everything that this retrieves from the server, will be directed to app.js
