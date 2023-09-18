@@ -199,3 +199,5 @@ Provides a section for users to articulate their final wishes and recommendation
 - Final Confirmation: After a thorough review, users lock in their decisions, securing the document with a password or biometric authentication.
 
 9. All details will be sent to the API server to generate a full PDF Will & Trust Document.
+#   S M U f i n t e c h R e a c t  
+ 
